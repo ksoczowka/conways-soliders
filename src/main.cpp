@@ -4,6 +4,7 @@
 int main() {
     InitWindow(600, 600, "Conway\'s Soliders");
 
+    SetExitKey(-69);
     while(!WindowShouldClose()) {
         //
 
